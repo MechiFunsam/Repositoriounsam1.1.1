@@ -52,3 +52,5 @@ for carpeta in carpetas:
                 st.download_button(f"Descargar {archivo}", data=file, file_name=archivo)
     else:
         st.warning(f"No hay archivos en la categoría {carpeta}.")
+        streamlit run main.py
+        
